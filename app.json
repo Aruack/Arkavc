@@ -2,7 +2,7 @@
   "name": "Calls Music",
   "description": "Telegram bot + userbot for streaming audio in group calls.",
   "keywords": ["telegram", "python"],
-  "repository": "https://github.com/Auack/Arkavc",
+  "repository": "https://github.com/Aruack/Arkavc",
   "env": {
     "SESSION_NAME": {
       "description": "A Pyrogram session string.",
