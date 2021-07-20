@@ -54,5 +54,5 @@
 
 ## ✨ Credits
 
-- Aruack ([legend](https://telegram.dog/Auack))
+- Aruack ([legend](https://telegram.dog/Aruack))
 - Browny Boy ([pero lunda](https://telegram.dog/bff_all_time/))
