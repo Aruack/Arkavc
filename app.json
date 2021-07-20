@@ -1,0 +1,41 @@
+{
+  "name": "Calls Music",
+  "description": "Telegram bot + userbot for streaming audio in group calls.",
+  "keywords": ["telegram", "python"],
+  "repository": "https://github.com/Auack/Arkavc",
+  "env": {
+    "SESSION_NAME": {
+      "description": "A Pyrogram session string.",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "A bot token from @BotFather.",
+      "required": true
+    },
+    "API_ID": {
+      "description": "An app ID from https://my.telegram.org/apps.",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "An app hash from https://my.telegram.org/apps.",
+      "required": true
+    },
+    "SUDO_USERS": {
+      "description": "List of user IDs counted as admin everywhere (separated by space).",
+      "required": true
+    },
+    "DURATION_LIMIT": {
+      "description": "Max audio duration limit for downloads (minutes).",
+      "required": true,
+      "value": "10"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
