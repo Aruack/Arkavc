@@ -6,7 +6,7 @@
   "env": {
     "SESSION_NAME": {
       "description": "A Pyrogram session string.",
-      "required": false
+      "required": true
     },
     "BOT_TOKEN": {
       "description": "A bot token from @BotFather.",
